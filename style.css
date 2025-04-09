@@ -1,6 +1,4 @@
-/* -----------------------------
-   Global Reset & Body
------------------------------- */
+
 * {
     margin: 0;
     padding: 0;
@@ -13,9 +11,7 @@
     color: #333;
   }
   
-  /* -----------------------------
-     Links & Buttons
-  ------------------------------ */
+
   a {
     color: inherit;
     text-decoration: none;
@@ -24,7 +20,7 @@
   .btn {
     display: inline-block;
     padding: 0.75rem 1.5rem;
-    background: #f06292; /* Pinkish color */
+    background: #f06292; 
     color: #fff;
     border-radius: 25px;
     margin: 0.25rem;
@@ -32,9 +28,7 @@
     text-align: center;
   }
   
-  /* -----------------------------
-     Hero Section
-  ------------------------------ */
+
   .hero-section {
     text-align: center;
     padding: 3rem 1rem;
@@ -56,10 +50,7 @@
   .nav-links {
     margin-top: 1rem;
   }
-  
-  /* -----------------------------
-     Love Letter & Prayer Sections
-  ------------------------------ */
+
   .love-letter,
   .prayer-section {
     background: #fff;
@@ -74,9 +65,7 @@
     margin-bottom: 1rem;
   }
   
-  /* -----------------------------
-     Gallery Layout
-  ------------------------------ */
+ 
   .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -94,11 +83,10 @@
     text-align: center;
   }
   
-  /* Force images to a uniform size */
   .gallery-item img {
     width: 300px;
     height: 300px;
-    object-fit: cover; /* ensures image fills the box, cropping edges if needed */
+    object-fit: cover; 
     margin-bottom: 0.5rem;
     border-radius: 5px;
   }
@@ -106,7 +94,7 @@
   .gallery-item video {
     width: 300px;
     height: 300px;
-    object-fit: cover; /* crops if the aspect ratio differs */
+    object-fit: cover; 
     border-radius: 5px;
   }
   
@@ -116,9 +104,7 @@
     background: #eee;
   }
   
-  /* -----------------------------
-     Responsive Adjustments
-  ------------------------------ */
+
   @media (max-width: 600px) {
     .hero-section {
       padding: 2rem 1rem;
